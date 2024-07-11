@@ -1,0 +1,114 @@
+body {
+background-color: #F7E7DC;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+
+
+  height: 600px;
+  width: 362px;
+  margin-left: 271px;
+  margin-top: -155px;
+  z-index: -2;
+}
+
+
+
+.imgedit {
+  border-radius: 50%;
+  height: 229px;
+  margin-top: 230px;
+  margin-left: 68px;
+  box-shadow: 30px silver;
+
+}
+
+.imgedit2 {
+  border-radius: 50%;
+  height: 615px;
+  margin-top: -295px;
+  margin-left: -66px;
+
+}
+
+
+@keyframes runfan {
+
+  /* 0%{
+transform: rotate(0deg);
+
+} */
+
+  100% {
+    transform: rotate(360deg);
+
+  }
+
+}
+
+
+.btncntr {
+
+  margin-left: 82px;
+  margin-top: 10px;
+
+
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  height: 50px;
+  width: 70px;
+  color: white;
+  background-color: black;
+  border: none;
+  margin: 8px;
+  /* border-radius: 10px; */
+  margin-right: 48px;
+  transition: 0.1s;
+}
+
+
+.onfan {
+
+  animation-name: runfan;
+  animation-duration: 2ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  
+  border-radius: 50%;
+  height: 229px;
+  margin-top: 230px;
+  margin-left: 68px;
+  box-shadow: 30px silver;
+}
+
+.off {
+  border-radius: 50%;
+  height: 229px;
+  margin-top: 230px;
+  margin-left: 68px;
+  box-shadow: 30px silver;
+
+}
+
+button {
+
+  cursor: pointer;
+
+}
+
+
+button:hover {
+  border: none;
+  border-radius: 50%;
+  background-color: white;
+  color: black;
+  box-shadow: 3px 4px 5px #000000;
+}
